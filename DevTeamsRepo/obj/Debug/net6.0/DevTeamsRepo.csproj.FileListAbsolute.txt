@@ -1,0 +1,5 @@
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.csproj.AssemblyReference.cache
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.AssemblyInfoInputs.cache
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.AssemblyInfo.cs
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.csproj.CoreCompileInputs.cache
