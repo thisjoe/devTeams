@@ -3,3 +3,10 @@ C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignment
 C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.AssemblyInfoInputs.cache
 C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.AssemblyInfo.cs
 C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.csproj.CoreCompileInputs.cache
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\bin\Debug\net6.0\DevTeamsRepo.deps.json
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\bin\Debug\net6.0\DevTeamsRepo.dll
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\bin\Debug\net6.0\DevTeamsRepo.pdb
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.dll
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\refint\DevTeamsRepo.dll
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\DevTeamsRepo.pdb
+C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeamsRepo\obj\Debug\net6.0\ref\DevTeamsRepo.dll

@@ -21,11 +21,12 @@
 
 		while (continueToRun)
 		{
-			Console.Clear();
+			//Console.Clear();
 			Console.WriteLine("Please select an option:\n" +
 				"1. List all Devs\n" +
 				"2. List all Teams\n" +
 				"3. Add Dev to Team\n" +
+				"4. Remove Dev from Team\n" +
 				"0. Exit\n");
 
 			Console.Write("Selection: ");
@@ -41,6 +42,9 @@
 					break;
 				case "3":
 					AddDevToTeam();
+					break;
+				case "4":
+					RemoveDevFromTeam();
 					break;
 				case "0":
 					continueToRun = false;
@@ -122,6 +126,43 @@
 		// Add dev to team
 		team.AddMember(developer);
 		// Pause and continue
+		PauseAndContinue();
+	}
+
+	private void RemoveDevFromTeam()
+	{
+		// Which team do you want to remove from?
+		Console.Clear();
+		Console.WriteLine("Which team would you like to remove from?");
+		ListTeams();
+		Console.Write("\nID: ");
+		string teamChoice = Console.ReadLine();
+
+		DevTeam team = _teamRepo.GetTeamById(Convert.ToInt32(teamChoice));
+		if (team == null)
+		{
+			ShowError("Invalid Team ID!");
+			PauseAndContinue();
+			return;
+		}
+
+		Console.WriteLine("Which dev would you like to remove from this team?");
+
+		foreach (Dev dev in team.GetTeamMembers())
+			Console.WriteLine(dev);
+
+		Console.Write("\nID: ");
+		string devChoice = Console.ReadLine();
+		int devID = Convert.ToInt32(devChoice);
+		Dev developer = _devRepo.GetDev(devID);
+		if (developer == null)
+		{
+			ShowError("Invalid Developer ID!");
+			PauseAndContinue();
+			return;
+		}
+		// Remove dev from team
+		team.RemoveMember(developer);
 		PauseAndContinue();
 	}
 

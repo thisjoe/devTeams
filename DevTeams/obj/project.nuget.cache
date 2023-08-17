@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kfqDzghQhG+VPBVrVJJKV+urtsrfHjfU9LMC7f4JWXqHz7TIfdtxWm8xmtpFzx5UzXn8iEC6LtlSgZaSgGoaTA==",
+  "dgSpecHash": "6XpsblrwjWUHCEBzMCMRWCFoUxhlZIu/aH92Pa1c0AF3nklXUU22uGjIkO8RmL07XPaVRhGHTBmRIH4kL1RKlA==",
   "success": true,
   "projectFilePath": "C:\\Users\\thisj\\Documents\\School\\ElevenFiftyProjects\\codingFoundations\\assignments\\devTeams\\DevTeams\\DevTeams\\DevRepoUI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\thisj\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\thisj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\thisj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\thisj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
+  ],
   "logs": []
 }

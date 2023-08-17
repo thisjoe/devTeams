@@ -1,81 +1,38 @@
-﻿public class DevTeam {
-    private readonly List<Developer> _members = new List<Developer>();
-
-    public int Id { get; private set; }
-    public string Name { get; set; } = "";
-    public List<Developer> Members { get { return _members; } }
-
-    public bool AddMember(Developer dev) {
-        if (dev == null)
-            return false;
-
-        _members.Add(dev);
-        return true;
-    }
-
-    public bool RemoveMember(Developer dev) {
-        if (dev == null)
-            return false;
-
-        _members.Remove(dev);
-        return true;
-    }
-
-    public bool HasMember(Developer dev) {
-        return _members.Contains(dev);
-    }
-
-    public bool HasMember(int id) {
-        return _members.Any(d => d.Id == id);
-    }
-
-    public bool HasMember(string email) {
-        return _members.Any(d => d.Email == email);
-    }
-
-}
-
-/*
-public class TeamRepo  
+﻿public class DevTeam
 {
+  private static int _count = 0;
+  // Team name, Members (list of devs), etc
+  private readonly List<Dev> _members =  new List<Dev>();
+  public int Id { get; private set; }
+  public string Name { get; set; } = "The Nobodies";
 
-
-  public Team GetTeamById(int id)
-  {
-    return _teams.FirstOrDefault(t => t.Id == id);
+  public DevTeam() {
+    Id = ++_count;
   }
 
-  public void AddTeam(Team team)
+  // CRUD (access methods)
+  public List<Dev> GetTeamMembers()
   {
-    if (team == null)
-      throw new ArgumentNullException(nameof(team));
-    
-    _teams.Add(team);
+    return _members;
   }
 
-  public void RemoveTeam(Team team) 
+  public bool AddMember(Dev dev)
   {
-    _teams.Remove(team);
+    if (dev == null) return false;
+    // no email? etc.
+    _members.Add(dev);
+    return true;
   }
 
-  public void AddDeveloperToTeam(int teamId, Developer developer)
+  public bool RemoveMember(Dev dev)
   {
-    Team team = GetTeamById(teamId);
-    team.AddMember(developer);
+    _members.Remove(dev);
+    return true;
+  }
+  public bool IsDevOnTeam(Dev dev) {
+    return _members.Contains(dev);
   }
 
-  public void RemoveDeveloperFromTeam(int teamId, Developer developer)
-  {
-    Team team = GetTeamById(teamId);
-    team.RemoveMember(developer);
-  }
-
-  public void Seed()
-  {
-    //...create teams 
-    
-    _teams.Add(team1);
-    _teams.Add(team2);
-  }
+  // Remove member
+  // Change name?
 }
-*/

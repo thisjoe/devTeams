@@ -1,52 +1,77 @@
-﻿public class DevTeamRepo {
-    
-}
-
-
-/*
-public class DevRepo
+﻿public class DevTeamRepo
 {
-    private List<Developer> _developers = new List<Developer>();
+    // List of teams
+    private readonly List<DevTeam> _teams = new List<DevTeam>();
+
+    public DevTeamRepo() {}
+    public DevTeamRepo(List<DevTeam> teams) {
+        _teams = teams;
+    }
+
+    public void Seed(DevRepo devRepo) {
+        string teamName = "The Scuba Squad";
+        AddTeam(teamName);
+        DevTeam team = GetTeamByName(teamName);
+        team.AddMember(devRepo.GetDev(1));
+        team.AddMember(devRepo.GetDev(2));
+        team.AddMember(new Dev() {Name="test", Email="test@email.com"});
+
+        string otherTeamName = "The Mighty Ducks";
+        AddTeam(otherTeamName);
+        DevTeam otherTeam = GetTeamByName(otherTeamName);
+        otherTeam.AddMember(devRepo.GetDev(3));
+        otherTeam.AddMember(devRepo.GetDev(4));
+    }
+
+    // CRUD methods to access and edit the teams
+    public List<DevTeam> GetTeams() {
+        return _teams;
+    }
+    public DevTeam? GetTeamByName(string name) {
+        return _teams.FirstOrDefault(t => t.Name == name);
+    }
+    public DevTeam? GetTeamById(int id) {
+        return _teams.FirstOrDefault(t => t.Id == id);
+    }
+    // Create
+    public bool AddTeam(string name) {
+        if (string.IsNullOrEmpty(name)) return false;
+
+        DevTeam team = new();
+        team.Name = name;
+
+        _teams.Add(team);
+        return true;
+    }
+    public bool AddTeam(string name, List<Dev> members) {
+        if (string.IsNullOrEmpty(name)) return false;
+
+        DevTeam team = new();
+        team.Name = name;
+
+        foreach(Dev dev in members) {
+            team.AddMember(dev);
+        }
+
+        return true;
+    }
     
-    public List<Developer> GetAll()
+    // Delete
+    public bool RemoveTeam(int id)
     {
-        return _developers;
+        DevTeam team = GetTeamById(id);
+        if(team == null) return false;
+
+        _teams.Remove(team);
+        return true;
     }
 
-    public Developer GetById(int id)
+    public bool RemoveTeam(string name) 
     {
-        return _developers.FirstOrDefault(d => d.Id == id);
+        DevTeam team = GetTeamByName(name);
+        if(team == null) return false;
+
+        _teams.Remove(team);
+        return true;
     }
-
-    public void Add(Developer developer)
-    {
-        _developers.Add(developer);
-    }
-
-    public void Remove(Developer developer)
-    {
-        _developers.Remove(developer);
-    }
-
-    public void Seed()
-    {
-        Developer dev1 = new Developer() {
-            Id = 1,
-            Name = "John Doe",
-            Email = "john@email.com",
-            HasPluralSightAccess = true
-        };
-
-        Developer dev2 = new Developer() {
-            Id = 2,
-            Name = "Jane Doe",
-            Email = "jane@email.com",
-            HasPluralSightAccess = false
-        };
-
-        _developers.Add(dev1);
-        _developers.Add(dev2);
-    }
-
 }
-*/

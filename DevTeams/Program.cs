@@ -1,10 +1,9 @@
 ﻿DevRepo repo = new();
 DevTeamRepo teamRepo = new();
 
-// Create a list of devs
 repo.Seed();
-// Add those devs to teams
-teamRepo.Seed();
+
+teamRepo.Seed(repo);
 
 Console.WriteLine("What");
 

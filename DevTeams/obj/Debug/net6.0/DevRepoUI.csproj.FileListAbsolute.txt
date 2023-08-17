@@ -3,3 +3,16 @@ C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignment
 C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\obj\Debug\net6.0\DevRepoUI.AssemblyInfoInputs.cache
 C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\obj\Debug\net6.0\DevRepoUI.AssemblyInfo.cs
 C:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\obj\Debug\net6.0\DevRepoUI.csproj.CoreCompileInputs.cache
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\bin\Debug\net6.0\DevRepoUI.exe
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\bin\Debug\net6.0\DevRepoUI.deps.json
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\bin\Debug\net6.0\DevRepoUI.runtimeconfig.json
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\bin\Debug\net6.0\DevRepoUI.dll
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\bin\Debug\net6.0\DevRepoUI.pdb
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\bin\Debug\net6.0\DevTeamsRepo.dll
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\bin\Debug\net6.0\DevTeamsRepo.pdb
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\obj\Debug\net6.0\DevRepoUI.csproj.CopyComplete
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\obj\Debug\net6.0\DevRepoUI.dll
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\obj\Debug\net6.0\refint\DevRepoUI.dll
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\obj\Debug\net6.0\DevRepoUI.pdb
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\obj\Debug\net6.0\DevRepoUI.genruntimeconfig.cache
+c:\Users\thisj\Documents\School\ElevenFiftyProjects\codingFoundations\assignments\devTeams\DevTeams\DevTeams\obj\Debug\net6.0\ref\DevRepoUI.dll
